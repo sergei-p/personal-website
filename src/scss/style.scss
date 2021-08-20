@@ -1,0 +1,68 @@
+// header {
+//   position: fixed;
+//   width: 100%;
+//   border: 1px solid red;
+// }
+body {
+  font-family: monospace, Courier, serif;
+  // background-color: #3366cc;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  background-color: grey;
+  width: 100%;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nameContainer {
+    width: 10%;
+    border: 1px solid black;
+    margin-left: 15%;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+
+  .socialLinks {
+    width: 10%;
+    border: 1px solid darkred;
+
+    li {
+      padding-left: 4px;
+    }
+  }
+
+  .navLinks {
+    width: 20%;
+    margin-left: 30%;
+    border: 1px solid purple;
+
+    a {
+      color: red;
+      text-decoration: none; // removes lines below words
+    }
+
+    a:hover {
+      color: blue;
+    }
+
+    li {
+      padding: 10px;
+    }
+  }
+
+  
+}
+
+// .navContainer {
+//   width: 200px;
+//   height: 200px;
+//   border: 1px solid blue;
+// }
+
