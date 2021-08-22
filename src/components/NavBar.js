@@ -29,10 +29,10 @@ function NavBar() {
 				</div>
 				<div className="navLinks">
 					<ul>
-						<li><a href="">About Me</a></li>
-						<li><a href="">Experience</a></li>
-						<li><a href="">Projects</a></li>
-						<li><a href="">Contact</a></li>
+						<li><a href="#aboutMe">About Me</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			{/* </div> */}

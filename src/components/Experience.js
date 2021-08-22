@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience() {
   return(
-    <section className="experience">
+    <section id="experience">
       <div className="experienceTitle">
         <h2>Experience</h2>
           <hr/>
@@ -36,7 +36,7 @@ function Experience() {
         </p>
       </div>
       <div className="internshipExperience">
-        <h3>&ensp;Internship at ON Semiconductor</h3>
+        <h3>Internship at ON Semiconductor</h3>
         <p>
           &emsp; In the summer of 2020 I interned at ON Semiconductor. I worked on the <a href="https://www.onsemi.com/design/tools-software/strata-developer-studio" target="_blank" rel="noreferrer">
           Strata</a> team at the Beaverton, OR office. At the begginning of my internship, I worked on
