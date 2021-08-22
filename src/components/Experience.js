@@ -1,19 +1,15 @@
 import React from 'react';
 
-function AboutMe() {
+function Experience() {
   return(
-    <section className="aboutMe">
-      <div className="section1Title">
-        <h2>About Me</h2>
+    <section className="experience">
+      <div className="section2Title">
+        <h2>Experience</h2>
           <hr/>
       </div>
-      <div className="section1Info">
+      <div className="universityExperience">
+        <h3>Project for Forest Ecology Reasearch</h3>
         <p>
-          &emsp; I recently graduated from Oregon State University with a degree in
-          in Computer Science. My technical interests include cloud, infrastructure,
-          backend, and mobile development.
-        </p>
-        {/* <p>
           &emsp; While completing my undergraduate degree I worked, with a team of students, on a project for the <a href="http://pnwpsp.forestry.oregonstate.edu/">
           Pacific Northwest Permanent Sample Plot Program(PNW-PSP)</a>. The PNW-PSP is a Program
           based out of Oregon State University's College of Forestry that works in partnership
@@ -38,7 +34,9 @@ function AboutMe() {
           which were being collected often times had to be compared to previous years' data in order
           to ensure their validity. This process, at times, required some fairly complex database lookups. 
         </p>
-
+      </div>
+      <div className="internshipExperience">
+        <h3>&ensp;Internship at ON Semiconductor</h3>
         <p>
           &emsp; In the summer of 2020 I interned at ON Semiconductor. I worked on the <a href="https://www.onsemi.com/design/tools-software/strata-developer-studio">
           Strata</a> team at the Beaverton, OR office. At the begginning of my internship, I worked on
@@ -54,10 +52,10 @@ function AboutMe() {
           all of the board commands in a <a href="https://www.atlassian.com/software/confluence">
           Confluence</a> page. My APIs provided the team with a lot more versatility in regards to how they manage, 
           interact, and use the commands. The technologies which I used included Node.js, Express.js, and Coucbase Database. 
-        </p> */}
+        </p>
       </div>
     </section>
-  )
+  ) 
 }
 
-export default AboutMe;
+export default Experience;

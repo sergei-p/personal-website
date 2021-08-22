@@ -5,7 +5,7 @@ function Header() {
   return(
     <header>
       <div className="imageContainer">
-        <img src="https://raw.githubusercontent.com/chuckgroom/onepage-bio/master/img/profile.png" alt="My Image"/>
+        <img src="https://raw.githubusercontent.com/chuckgroom/onepage-bio/master/img/profile.png"/>
       </div>
       <div className="nameContainer">
         <h2>Sergei Poliakov</h2>
