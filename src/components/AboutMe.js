@@ -3,11 +3,11 @@ import React from 'react';
 function AboutMe() {
   return(
     <section className="aboutMe">
-      <div className="section1Title">
+      <div className="aboutTitle">
         <h2>About Me</h2>
           <hr/>
       </div>
-      <div className="section1Info">
+      <div className="aboutInfo">
         <p>
           &emsp; I recently graduated from Oregon State University with a degree in
           in Computer Science. My technical interests include cloud, infrastructure,

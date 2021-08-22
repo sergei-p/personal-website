@@ -95,7 +95,7 @@ header {
   border: 1px solid darkgreen;
   background-color: #8C7547;
   
-  .section1Title {
+  .aboutTitle {
     // align-items: center;
     // flex-direction: column;
     // align-items: center;
@@ -110,7 +110,7 @@ header {
     }
   }
 
-  .section1Info {
+  .aboutInfo {
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -122,7 +122,8 @@ header {
   align-items: center;
   background-color: #DAC6AC;
   border: 1px solid #43076A;
-  .section2Title {
+  
+  .experienceTitle {
 
     border: 1px solid #000000;
 
@@ -142,6 +143,37 @@ header {
   .internshipExperience{
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #515B51;
+  border: 1px solid #000000;
+
+  .projectsTitle {
+
+    border: 1px solid #000000;
+
+    hr {
+      
+      height: 2px;
+      background-color: #000000;
+      border-color: #000000;
+    }
+  }
+
+  .projectItem {
+    margin-left: 10%;
+    margin-right: 10%
+
+
+  }
+
+  h4 {
+    font-style: italic;
   }
 }
 
