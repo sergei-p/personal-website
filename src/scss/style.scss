@@ -177,10 +177,29 @@ header {
   }
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFA747;
+  border: 1px solid #000000;
 
-// .navContainer {
-//   width: 200px;
-//   height: 200px;
-//   border: 1px solid blue;
-// }
+  .contactTitle {
 
+    border: 1px solid #000000;
+
+    hr {
+      
+      height: 2px;
+      background-color: #000000;
+      border-color: #000000;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
