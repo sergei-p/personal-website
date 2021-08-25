@@ -10,8 +10,8 @@ function AboutMe() {
       <div className="aboutInfo">
         <p>
           &emsp; I recently graduated from Oregon State University with a degree in
-          in Computer Science. My technical interests include cloud, infrastructure,
-          backend, and mobile development.
+          Computer Science. My technical interests include cloud, infrastructure,
+          backend, and mobile development. 
         </p>
       </div>
     </section>

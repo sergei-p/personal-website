@@ -1,7 +1,13 @@
+$color1: #EFA747;
+$color2: #515B51;
+$color3: #8C7547;
+$color4: #DAC6AC;
+$color5: #10000C;
+
 body {
   
   font-family: monospace, Courier, serif;
-  background-color: #EFA747;
+  background-color: $color1;
   margin: 0;
   padding: 0; 
 }
@@ -18,7 +24,7 @@ body {
   width: 100%;
 
   align-items: center;
-  background-color: #515B51;
+  background-color: $color2;
   
   .nameAndSocialLinks {
     display: flex;
@@ -77,7 +83,7 @@ body {
 .mNavbar {
 
   display: flex; 
-  background-color: #515B51;
+  background-color: $color2;
   flex-direction: column;
 
   left: 0;
@@ -180,17 +186,11 @@ header {
   flex-direction: column;
   align-items: center;
   border: 1px solid darkgreen;
-  background-color: #8C7547;
+  background-color: $color3;
   
   .aboutTitle {
-    // align-items: center;
-    // flex-direction: column;
-    // align-items: center;
-
-    border: 1px solid #000000;
-
+    // border: 1px solid #000000;
     hr {
-      
       height: 2px;
       background-color: #000000;
       border-color: #000000;
@@ -207,13 +207,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #DAC6AC;
-  border: 1px solid #43076A;
-  
+  background-color: $color4;
+  // border: 1px solid #43076A;
   .experienceTitle {
-
-    border: 1px solid #000000;
-
+    // border: 1px solid #000000;
     hr {
       
       height: 2px;
@@ -237,11 +234,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #515B51;
-  border: 1px solid #000000;
+  background-color: $color2;
+  // border: 1px solid #000000;
 
   .projectsTitle {
-    border: 1px solid #948787;
+    // border: 1px solid #948787;
     hr {
       height: 2px;
       background-color: #000000;
@@ -259,7 +256,7 @@ header {
       flex-direction: column;
     }
     .itemA {
-      background-color: #3e463e;
+      background-color: #788d78;
     }
     .projectItem {
       margin-left: 10%;
@@ -272,13 +269,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EFA747;
+  background-color: $color1;
   border: 1px solid #000000;
 
   .contactTitle {
-
-    border: 1px solid #000000;
-
+    // border: 1px solid #000000;
     hr {
       
       height: 2px;
@@ -287,18 +282,25 @@ header {
     }
   }
 
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } 
+  .formContainer {
+    width: 80%;
+
+    form {
+      // border: 1px solid darkred;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
+
+  }
+
 }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000;
+  background-color: $color5;
 
   p {
     color: white;

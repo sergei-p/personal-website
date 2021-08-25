@@ -21,6 +21,7 @@ function Contact() {
         <h2>Contact Me</h2>
           <hr/>
       </div>
+      <div className="formContainer">
         <form className="contactForm" onSubmit={sendEmail}> 
           <label>Name</label>
           <input type="text" name="from_name" />
@@ -32,6 +33,7 @@ function Contact() {
           <textarea name="message" />
           <input type="submit" value="Send" />
         </form>
+      </div>
     </section>
   )
 }
