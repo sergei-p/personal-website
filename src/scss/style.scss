@@ -241,25 +241,30 @@ header {
   border: 1px solid #000000;
 
   .projectsTitle {
-
     border: 1px solid #948787;
-
     hr {
-      
       height: 2px;
       background-color: #000000;
       border-color: #000000;
     }
   }
 
-  // might use this this section later on
-  // .projectItem {
-  //   margin-left: 10%;
-  //   margin-right: 10%
-  // }
-
   h4 {
     font-style: italic;
+  }
+
+  .projectItems {
+    dl {
+      display: flex;
+      flex-direction: column;
+    }
+    .itemA {
+      background-color: #3e463e;
+    }
+    .projectItem {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
   }
 }
 
