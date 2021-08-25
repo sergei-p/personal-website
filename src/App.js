@@ -1,6 +1,6 @@
 import React from 'react';
 import './scss/style.scss';
-import useWindowDimensions from './components/hooks/useWindowDimensions';
+import useWindowDimensions from './hooks/useWindowDimensions';
 import NavBar from "./components/NavBar";
 import MobileNavbar from './components/MobileNavbar';
 import Header from "./components/Header";
