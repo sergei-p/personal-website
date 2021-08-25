@@ -4,24 +4,28 @@ import { SocialIcon } from 'react-social-icons';
 function NavBar() {
 	return(		
 		<nav className="navbar">
-				<div className="nameContainer">
-					<h3>Sergei Poliakov</h3>
+				
+				<div className="nameAndSocialLinks">
+					<div className="nameContainer">
+						<h2>Sergei Poliakov</h2>
+					</div>
+					<div className="socialLinks">
+						<dl>
+							<dt><SocialIcon url="https://www.linkedin.com/in/sergei-poliakov-6b2b52213/"
+			  													style={{height: 30, width: 30}}/></dt>
+							<dt><SocialIcon url="https://github.com/sergei-p"
+			  												style={{height: 30, width: 30}}/></dt>
+						</dl>
+					</div>
 				</div>
-				<div className="socialLinks">
-					<ul>
-						<li><SocialIcon url="https://www.linkedin.com/in/sergei-poliakov-6b2b52213/"
-														style={{height: 30, width: 30}}/></li>
-						<li><SocialIcon url="https://github.com/sergei-p"
-														style={{height: 30, width: 30}}/></li>
-					</ul>
-				</div>
+
 				<div className="navLinks">
-					<ul>
-						<li><a href="#aboutMe">About Me</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
+	        <dl>
+          	<dt><a href="#aboutMe">About Me</a></dt>
+          	<dt><a href="#experience">Experience</a></dt>
+          	<dt><a href="#projects">Projects</a></dt>
+          	<dt><a href="#contact">Contact</a></dt>
+        	</dl>
 				</div>
 		</nav>
 	

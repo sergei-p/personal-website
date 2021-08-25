@@ -22,24 +22,25 @@ function MobileNavbar() {
     <nav className="mNavbar">
       {/* moblie navbar */}
       <div className="mainNav">
-        <div className="mNameContainer">
-          <h3>Sergei Poliakov</h3>
+        <div className="mNameAndSocialLinks">
+          <div className="mNameContainer">
+            <h3>Sergei Poliakov</h3>
+          </div>
+          <div className="mSocialLinks">
+				  		<dl>
+				  			<dt><SocialIcon url="https://www.linkedin.com/in/sergei-poliakov-6b2b52213/"
+			    													style={{height: 30, width: 30}}/></dt>
+				  			<dt><SocialIcon url="https://github.com/sergei-p"
+			    												style={{height: 30, width: 30}}/></dt>
+				  		</dl>
+				  </div>
         </div>
-        <div className="mSocialLinks">
-          <a>
-          <SocialIcon url="https://www.linkedin.com/in/sergei-poliakov-6b2b52213/"
-			  											style={{height: 30, width: 30}}/>
-          </a>
-          <a>
-          <SocialIcon url="https://github.com/sergei-p"
-			  											style={{height: 30, width: 30}}/>
-          </a>
-        </div>
-        {/* mobile dropdown nave menu */}
         <div className="navMenuButton">
          <Hamburger direction={"left"} size={20}toggled={isOpen} toggle={setOpen}/>
         </div>
       </div>
+
+      {/* mobile dropdown nav menu */}
       <div style={getStyle()} className="dropDownNav">
         <dl>
           <dt><a href="#aboutMe">About Me</a></dt>

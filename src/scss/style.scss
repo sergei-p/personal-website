@@ -3,64 +3,72 @@ body {
   font-family: monospace, Courier, serif;
   background-color: #EFA747;
   margin: 0;
-  // padding: 0; // might need later
+  padding: 0; 
 }
 
 
-// nav {
 .navbar {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   left: 0;
   top: 0;
   position: fixed;
   z-index: 9999; // always keep the navbar at top level view
   width: 100%;
-  //justify-content: space-evenly | space-around ; // https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
   align-items: center;
-  //border: 1px solid red;
-  // background-color: grey;
   background-color: #515B51;
-
-  ul {
-    display: flex;
-    list-style-type: none;
-  }
   
-  .nameContainer {
-    width: 10%;
-    border: 1px solid black;
-    margin-left: 15%;
-    text-align: center;
-    vertical-align: center;
+  .nameAndSocialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
-  }
+    .nameContainer {
+      // border: 1px solid black;
+      text-align: center;
+      vertical-align: center;
+    }
 
-  .socialLinks {
-    width: 10%;
-    border: 1px solid darkred;
+    .socialLinks {
 
-    li {
-      padding-left: 4px;
+      // border: 1px solid darkred;
+      dl {
+        margin-left: 16%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      dt {
+        margin-left: 6%;
+        margin-right: 6%;
+      }
     }
   }
 
   .navLinks {
-    width: 20%;
-    margin-left: 30%;
-    border: 1px solid purple;
+
 
     a {
-      color: red;
+      color: black;
       text-decoration: none; // removes lines below words
     }
 
     a:hover {
-      color: blue;
+      color: white;
     }
 
-    li {
-      padding: 10px;
+    dl {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    dt {
+      margin-left:  4%;
+      margin-right: 4%;
     }
   }
 }
@@ -68,7 +76,7 @@ body {
 // mobile navbar
 .mNavbar {
 
-  // display: flex; // already defined in MobileNavbar.js
+  display: flex; 
   background-color: #515B51;
   flex-direction: column;
 
@@ -86,26 +94,38 @@ body {
     align-items: center;
     background-color: #515B51;
     justify-content: space-between;
-  
-    .mNameContainer {
+    
+
+    .mNameAndSocialLinks {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       margin-left: 2%;
-    }
+      
+      .mNameContainer {
+        //margin-left: 2%;
+        text-align: center;
+        vertical-align: center;
+      }
+    
+
+      .mSocialLinks {
+        dl {
+          margin-left: 16%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
   
-    ul {
-      display: flex;
-      list-style-type: none;
-    }
-  
-    .mSocialLinks {
-      display: flex;
-      justify-content: space-between;
-      width: 14%;
-      border: 1px solid darkred;
-      margin-right: 31%;
+        dt {
+          margin-left: 6%;
+          margin-right: 6%;
+        }
+      }
     }
   
     .navMenuButton {
-      border: 1px solid yellow;
+      // border: 1px solid yellow;
       margin-right: 2%; 
     }
   }
