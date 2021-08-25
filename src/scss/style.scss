@@ -7,8 +7,14 @@ body {
 }
 
 
-nav {
+// nav {
+.navbar {
   display: flex;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 9999; // always keep the navbar at top level view
+  width: 100%;
   //justify-content: space-evenly | space-around ; // https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
   align-items: center;
@@ -59,7 +65,79 @@ nav {
   }
 }
 
+// mobile navbar
+.mNavbar {
+
+  // display: flex; // already defined in MobileNavbar.js
+  background-color: #515B51;
+  flex-direction: column;
+
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 9999; // always keep the navbar at top level view
+  width: 100%;
+
+  .mainNav {
+    display: flex;
+    flex-direction: "column";
+    z-index: 9999;
+
+    align-items: center;
+    background-color: #515B51;
+    justify-content: space-between;
+  
+    .mNameContainer {
+      margin-left: 2%;
+    }
+  
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+  
+    .mSocialLinks {
+      display: flex;
+      justify-content: space-between;
+      width: 14%;
+      border: 1px solid darkred;
+      margin-right: 31%;
+    }
+  
+    .navMenuButton {
+      border: 1px solid yellow;
+      margin-right: 2%; 
+    }
+  }
+
+  .dropDownNav {
+    dl{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    dt {
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+    }
+  }
+  
+}
+
+
 header {
+  padding-top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,3 +281,5 @@ footer {
     color: white;
   }
 }
+
+// mobile navbar

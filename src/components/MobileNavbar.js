@@ -1,0 +1,55 @@
+import React, { useState } from 'react';
+import { SocialIcon } from 'react-social-icons';
+import { Fade as Hamburger} from 'hamburger-react';
+function MobileNavbar() {
+  const [isOpen, setOpen] = useState(false);
+
+  function getStyle() {
+    if(!isOpen) {
+      return {
+        display: "none"
+      }
+    } else {
+      // the rest of the styling is in scss/style.scss
+      return {
+        display: "flex"
+      }
+    }
+  }
+
+  
+  return(
+    <nav className="mNavbar">
+      {/* moblie navbar */}
+      <div className="mainNav">
+        <div className="mNameContainer">
+          <h3>Sergei Poliakov</h3>
+        </div>
+        <div className="mSocialLinks">
+          <a>
+          <SocialIcon url="https://www.linkedin.com/in/sergei-poliakov-6b2b52213/"
+			  											style={{height: 30, width: 30}}/>
+          </a>
+          <a>
+          <SocialIcon url="https://github.com/sergei-p"
+			  											style={{height: 30, width: 30}}/>
+          </a>
+        </div>
+        {/* mobile dropdown nave menu */}
+        <div className="navMenuButton">
+         <Hamburger direction={"left"} size={20}toggled={isOpen} toggle={setOpen}/>
+        </div>
+      </div>
+      <div style={getStyle()} className="dropDownNav">
+        <dl>
+          <dt><a href="#aboutMe">About Me</a></dt>
+          <dt><a href="#experience">Experience</a></dt>
+          <dt><a href="#projects">Projects</a></dt>
+          <dt><a href="#contact">Contact</a></dt>
+        </dl>
+      </div>
+    </nav>
+  )
+}
+
+export default MobileNavbar;
