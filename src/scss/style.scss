@@ -1,8 +1,17 @@
-$color1: #EFA747;
-$color2: #515B51;
-$color3: #8C7547;
-$color4: #DAC6AC;
-$color5: #10000C;
+//@import "~bootstrap/scss/bootstrap";
+// original color scheme
+// $color1: #EFA747;
+// $color2: #515B51;
+// $color3: #8C7547;
+// $color4: #DAC6AC;
+// $color5: #10000C;
+
+$color1: grey; // #808080
+$color2: white;
+$color3: #C5C6C7;
+$color4: grey;
+$color5: black;
+
 
 body {
   
@@ -10,6 +19,7 @@ body {
   background-color: $color1;
   margin: 0;
   padding: 0; 
+  //color: white;
 }
 
 
@@ -98,7 +108,8 @@ body {
     z-index: 9999;
 
     align-items: center;
-    background-color: #515B51;
+    // background-color: #515B51;
+    background-color: $color2;
     justify-content: space-between;
     
 
@@ -234,7 +245,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $color2;
+  // background-color: $color2;
+  background-color: $color3;
   // border: 1px solid #000000;
 
   .projectsTitle {
@@ -256,7 +268,8 @@ header {
       flex-direction: column;
     }
     .itemA {
-      background-color: #788d78;
+      //background-color: #788d78;
+      background-color: #d6d6d6; // #cecece
     }
     .projectItem {
       margin-left: 10%;

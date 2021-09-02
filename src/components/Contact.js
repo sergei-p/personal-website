@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-
+// import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
 function Contact() {
 
   function sendEmail(e) {
@@ -17,6 +18,39 @@ function Contact() {
 
   return( 
     <section id="contact">
+       {/* <div className="contactTitle">
+        <h2>Contact Me</h2>
+          <hr/>
+      </div> */}
+
+      {/* <Form>
+        <Form.Group className="mb-2" controlId="from_name">
+          <Form.Label>Name</Form.Label>
+          <Form.Control size="sm" type="text" placeholder="Enter Name"/>
+        </Form.Group>
+  
+        <Form.Group className="mb-2" controlId="from_email">
+          <Form.Label>Email</Form.Label>
+          <Form.Control size="sm" type="email" placeholder="Enter Email" />
+        </Form.Group>
+
+        <Form.Group className="mb-2" controlId="subject">
+          <Form.Label>Subject</Form.Label>
+          <Form.Control size="sm" type="email" placeholder="Enter Subject" />
+        </Form.Group>
+
+        <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Message</Form.Label>
+          <Form.Control size="sm" as="textarea" rows={3} placeholder="Enter Message"/>
+        </Form.Group>
+
+
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+        </Form> */}
+
+
       <div className="contactTitle">
         <h2>Contact Me</h2>
           <hr/>
@@ -33,7 +67,7 @@ function Contact() {
           <textarea name="message" />
           <input type="submit" value="Send" />
         </form>
-      </div>
+      </div> 
     </section>
   )
 }
