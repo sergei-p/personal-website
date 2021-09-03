@@ -39,7 +39,7 @@ function Experience() {
         <h3>Internship at ON Semiconductor</h3>
         <p>
           &emsp; In the summer of 2020 I interned at ON Semiconductor. I worked on the <a href="https://www.onsemi.com/design/tools-software/strata-developer-studio" target="_blank" rel="noreferrer">
-          Strata</a> team at the Beaverton, OR office. At the begginning of my internship, I worked on
+          Strata</a> team at the Beaverton, OR office. At the beginning of my internship, I worked on
           a web application, which is responsible for managing Strata accounts and performing data analytics
           on Strata usage. I worked on creating complex web pages and was responsible for facilitating their
           interaction with the database. This included desiging and implementing new schemas to the database, as
