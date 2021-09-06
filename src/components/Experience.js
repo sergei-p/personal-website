@@ -27,7 +27,7 @@ function Experience() {
           with our client, consultants, and team. I was also responsible for task delegation
           and feature/design approval. My technical responsiblities consited of designing the  
           entire UI, designing parts of the database, and data validation. Data validation was
-          a very big portion of this project. Many trees in the first plots have over a hundred
+          a very big portion of this project. Many trees in the forest plots have over a hundred
           years of recorded data. Our data validation system had to perform many complicated checks
           any time a new data point was recorded in order to maintain the integrity of the
           data which was being collected, and reduce the probability of human error. Many data points,
@@ -43,7 +43,7 @@ function Experience() {
           a web application, which is responsible for managing Strata accounts and performing data analytics
           on Strata usage. I worked on creating complex web pages and was responsible for facilitating their
           interaction with the database. This included desiging and implementing new schemas to the database, as
-          well as making new additions to the API. I worked with React.js, Node.js, Redux, and MongoDB. 
+          well as making new additions to the API. I worked with React.js, Node.js, Mocha.js, Chai.js, Redux, and MongoDB. 
         </p>
         
         <p>
@@ -51,7 +51,7 @@ function Experience() {
           for interacting with Single-board microcontrollers. Prior to the APIs, which I built, engineers stored 
           all of the board commands in a <a href="https://www.atlassian.com/software/confluence" target="_blank" rel="noreferrer">
           Confluence</a> page. My APIs provided the team with a lot more versatility in regards to how they manage, 
-          interact, and use the commands. The technologies which I used included: Node.js, Express.js, and Coucbase Database. 
+          interact, and use the commands. The technologies which I used included: Node.js, Mocha.js, Chai.js, Express.js, and Coucbase Database. 
         </p>
       </div>
     </section>
