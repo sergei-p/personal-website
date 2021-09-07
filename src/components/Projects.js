@@ -121,7 +121,7 @@ function Projects() {
                 </p>
               <h4>GitHub Link</h4>
                 <p>
-                  Link
+                  <a href="https://github.com/sergei-p/Cloud-Based-Music-Player" target="_blank" rel="noreferrer">https://github.com/sergei-p/Cloud-Based-Music-Player</a>
                 </p>
             </div>
           </dt>
