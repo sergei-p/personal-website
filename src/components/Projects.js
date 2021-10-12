@@ -60,7 +60,7 @@ function Projects() {
                 </p>
               <h4>GitHub Link</h4>
                 <p>
-                  <a href="https://github.com/sergei-p/Mobile-Weather-App" target="_blank" rel="noreferrer">https://github.com/sergei-p/Desktop-Messaging-App</a>
+                  <a href="https://github.com/sergei-p/Desktop-Messaging-App" target="_blank" rel="noreferrer">https://github.com/sergei-p/Desktop-Messaging-App</a>
                 </p>
             </div>
           </dt>
