@@ -32,7 +32,8 @@ function Experience() {
           any time a new data point was recorded in order to maintain the integrity of the
           data which was being collected, and reduce the probability of human error. Many data points,
           which were being collected often times had to be compared to previous years' data in order
-          to ensure their validity. This process, at times, required some fairly complex database lookups. 
+          to ensure their validity. 
+          {/* This process, at times, required some fairly complex database lookups.  */}
         </p>
       </div>
       <div className="internshipExperience">
