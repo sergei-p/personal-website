@@ -57,15 +57,25 @@ function Contact() {
       </div>
       <div className="formContainer">
         <form className="contactForm" onSubmit={sendEmail}> 
+        <div>
           <label>Name</label>
-          <input type="text" name="from_name" />
+        </div>
+        <input class="input" type="text" />
+        <div>
           <label>Email</label>
-          <input type="email" name="from_email" />
+        </div>
+        <input class="input" type="text" />
+        <div>
           <label>Subject</label>
-          <input type="text" name="subject" />
+        </div>
+          <input class="input" type="text" />
+        <div>
           <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+        </div>
+        <textarea class="input"></textarea>
+        <div>
+          <button class="btn" type="submit">Send</button>
+        </div>
         </form>
       </div> 
     </section>

@@ -18,8 +18,8 @@ body {
   font-family: monospace, Courier, serif;
   background-color: $color1;
   margin: 0;
-  padding: 0; 
-  //color: white;
+  padding: 0;
+  line-height: 1.5; 
 }
 
 
@@ -42,14 +42,12 @@ body {
     align-items: center;
     
     .nameContainer {
-      // border: 1px solid black;
       text-align: center;
       vertical-align: center;
     }
 
     .socialLinks {
-
-      // border: 1px solid darkred;
+      
       dl {
         margin-left: 16%;
         display: flex;
@@ -305,6 +303,38 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      .input {
+        border: 1px solid #000;
+        outline: none;
+        padding: .5rem;
+        font-size: 1rem;
+        border-radius: .2em;
+        font-family: inherit;
+        line-height: inherit;
+      }
+
+      .input:focus {
+        border-color: #AAA;
+        box-shadow: 0 0 10px 0 #333;
+      }
+
+      .btn {
+        background-color: #444;
+        border: 1px solid #222;
+        width: 7rem;
+        border-radius: .3em;
+        cursor: pointer;
+        padding: .5em 1em;
+        margin: .5rem;
+        outline: none;
+        color: white;
+      }
+
+      .btn:hover, .btn:focus {
+        background-color: #333;
+        box-shadow: 0 0 10px 0 #000;
+      }
     } 
 
   }

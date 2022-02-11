@@ -9,6 +9,66 @@ function Projects() {
       </div>
       <div className="projectItems">
         <dl>
+          <dt className="itemB">
+              <div className="projectItem">
+                <h3>Mobile App for Forest Ecology Research</h3>
+                <h4>Description</h4> 
+                  <p>
+                    Data collection app for the <a href="http://pnwpsp.forestry.oregonstate.edu/" target="_blank" rel="noreferrer">
+                    Pacific Northwest Permanent Sample Plot Program</a>. This app is currently
+                    being used for collecting tree data data from over 150 forest plots across Oregon and Washington. 
+                  </p>
+                <h4>Technologies</h4> 
+                  <p>
+                    ODK-X, JavaScript, HTML, CSS, SQLite3
+                  </p>
+                <h4>GitHub Link</h4>
+                  <p>
+                    <a href="https://github.com/sergei-p/OSU_Capstone_MAFE" target="_blank" rel="noreferrer">https://github.com/sergei-p/OSU_Capstone_MAFE</a>
+                  </p>
+              </div>
+            </dt> 
+          <dt className="itemA">
+              <div className="projectItem">
+                <h3>Cloud Based In Browser Music Player</h3>
+                <h4>Description</h4> 
+                  <p>
+                    In Browser Music Player, which plays songs stored in AWS services.  The Music Player is hosted onGoogle Firebase’s hosting service.
+                  </p>
+                  <p>
+                    The song info, is stored in DynamoDB. The Song files are stored in an S3 bucket.  In order to upload songs andtheir info to S3 and 
+                    DynamoDB, respectively, I developed a Node.js upload tool using the S3 and DynamoDB SDKs.
+                  </p>
+                  <p>
+                    The API, for retrieving song info, is built with Node.js and is hosted on AWS lambda.
+                  </p>
+                <h4>Technologies</h4> 
+                  <p>
+                    Node.js, React.js, AWS S3, AWS DynamoDB, AWS Lambda, AWS API Gateway, AWS SQS, AWSCloudFormation, Google Firebase Hosting
+                  </p>
+                <h4>GitHub Link</h4>
+                  <p>
+                    <a href="https://github.com/sergei-p/Cloud-Based-Music-Player" target="_blank" rel="noreferrer">https://github.com/sergei-p/Cloud-Based-Music-Player</a>
+                  </p>
+              </div>
+          </dt>
+          <dt className="itemB">
+            <div className="projectItem">
+              <h3>Social Media Feed</h3>
+              <h4>Description</h4> 
+                <p>
+                Developed a web-based Social Media Feed. The Feed allows a user to view and submit new posts. The posts are stored in a database and the Feed interacts with the posts via an API.
+                </p>
+              <h4>Technologies</h4> 
+                <p>
+                JavaScript, HTML, CSS, React.js, Cloudflare Workers, Cloudflare Pages, Cloudflare  KV Storage
+                </p>
+              <h4>GitHub Link</h4>
+                <p>
+                  <a href="https://github.com/sergei-p/social-media-feed-project" target="_blank" rel="noreferrer">https://github.com/sergei-p/social-media-feed-project</a>
+                </p>
+            </div>
+          </dt>
           <dt className="itemA">
             <div className="projectItem">
               <h3>Web Based File Converter</h3>
@@ -28,25 +88,6 @@ function Projects() {
           </dt>
           <dt className="itemB">
             <div className="projectItem">
-              <h3>Mobile App for Forest Ecology Research</h3>
-              <h4>Description</h4> 
-                <p>
-                  Data collection app for the <a href="http://pnwpsp.forestry.oregonstate.edu/" target="_blank" rel="noreferrer">
-                  Pacific Northwest Permanent Sample Plot Program</a>. This app is currently
-                  being used for collecting tree data data from over 150 forest plots across Oregon and Washington. 
-                </p>
-              <h4>Technologies</h4> 
-                <p>
-                  ODK-X, JavaScript, HTML, CSS, SQLite3
-                </p>
-              <h4>GitHub Link</h4>
-                <p>
-                  <a href="https://github.com/sergei-p/OSU_Capstone_MAFE" target="_blank" rel="noreferrer">https://github.com/sergei-p/OSU_Capstone_MAFE</a>
-                </p>
-            </div>
-          </dt>
-          <dt className="itemA">
-            <div className="projectItem">
               <h3>Desktop Messaging App</h3>
               <h4>Description</h4> 
                 <p>
@@ -64,7 +105,7 @@ function Projects() {
                 </p>
             </div>
           </dt>
-          <dt className="itemB">
+          <dt className="itemA">
             <div className="projectItem">
               <h3>Mobile Weather App</h3>
               <h4>Description</h4> 
@@ -84,7 +125,7 @@ function Projects() {
                 </p>
             </div>
           </dt>
-          <dt className="itemA">
+          <dt className="itemB">
             <div className="projectItem">
               <h3>League of Legends Mobile App</h3>
               <h4>Description</h4> 
@@ -101,30 +142,7 @@ function Projects() {
                 </p>
             </div>
           </dt>
-          <dt className="itemB">
-            <div className="projectItem">
-              <h3>Cloud Based In Browser Music Player</h3>
-              <h4>Description</h4> 
-                <p>
-                  In Browser Music Player, which plays songs stored in AWS services.  The Music Player is hosted onGoogle Firebase’s hosting service.
-                </p>
-                <p>
-                  The song info, is stored in DynamoDB. The Song files are stored in an S3 bucket.  In order to upload songs andtheir info to S3 and 
-                  DynamoDB, respectively, I developed a Node.js upload tool using the S3 and DynamoDB SDKs.
-                </p>
-                <p>
-                  The API, for retrieving song info, is built with Node.js and is hosted on AWS lambda.
-                </p>
-              <h4>Technologies</h4> 
-                <p>
-                  Node.js, React.js, AWS S3, AWS DynamoDB, AWS Lambda, AWS API Gateway, AWS SQS, AWSCloudFormation, Google Firebase Hosting
-                </p>
-              <h4>GitHub Link</h4>
-                <p>
-                  <a href="https://github.com/sergei-p/Cloud-Based-Music-Player" target="_blank" rel="noreferrer">https://github.com/sergei-p/Cloud-Based-Music-Player</a>
-                </p>
-            </div>
-          </dt>
+
         </dl>
       </div>
     </section>
