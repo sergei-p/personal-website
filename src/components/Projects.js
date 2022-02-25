@@ -16,7 +16,7 @@ function Projects() {
                   <p>
                     Data collection app for the <a href="http://pnwpsp.forestry.oregonstate.edu/" target="_blank" rel="noreferrer">
                     Pacific Northwest Permanent Sample Plot Program</a>. This app is currently
-                    being used for collecting tree data data from over 150 forest plots across Oregon and Washington. 
+                    being used for collecting tree data from over 150 forest plots across Oregon and Washington. 
                   </p>
                 <h4>Technologies</h4> 
                   <p>
