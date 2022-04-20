@@ -33,7 +33,7 @@ function Projects() {
                 <h3>Cloud Based In Browser Music Player</h3>
                 <h4>Description</h4> 
                   <p>
-                    In Browser Music Player, which plays songs stored in AWS services.  The Music Player is hosted onGoogle Firebase’s hosting service.
+                    In Browser Music Player, which plays songs stored in AWS services.  The Music Player is hosted on Google Firebase’s hosting service.
                   </p>
                   <p>
                     The song info, is stored in DynamoDB. The Song files are stored in an S3 bucket.  In order to upload songs andtheir info to S3 and 
