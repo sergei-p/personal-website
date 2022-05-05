@@ -49,7 +49,7 @@ function Experience() {
         
         <p>
           &emsp; During my internship I was also tasked with building APIs that managed commands, which Strata uses
-          for interacting with Single-board microcontrollers. Prior to the APIs, which I built, engineers stored 
+          for interacting with single-board microcontrollers. Prior to the APIs, which I built, engineers stored 
           all of the board commands in a <a href="https://www.atlassian.com/software/confluence" target="_blank" rel="noreferrer">
           Confluence</a> page. My APIs provided the team with a lot more versatility in regards to how they manage, 
           interact, and use the commands. The technologies which I used included: Node.js, Mocha.js, Chai.js, Express.js, and Coucbase Database. 

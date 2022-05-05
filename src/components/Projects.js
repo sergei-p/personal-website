@@ -142,6 +142,21 @@ function Projects() {
                 </p>
             </div>
           </dt>
+          <dt className="itemA">
+            <div className='projectItem'>
+              <h3>STAR-CCM+ Simulation Data Handler</h3> 
+              <h4>Description</h4>
+                <p>
+                  Developed a Python application that manages simulation data produced by STAR-CCM+. The simulation results are in CSV format. The Python application 
+                  collects data from the CSV files, performs any calculations that are necessary, on a case by case basis, and appends the properly formatted data to 
+                  an excel file. 
+                </p>
+              <h4>Technologies</h4>
+                Python, Pandas, OpenPyXL, Electron.js
+           </div>
+          </dt>
+
+
 
         </dl>
       </div>
