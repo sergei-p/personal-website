@@ -1,5 +1,5 @@
 import React from 'react';
-import myImg from "../img/myProfile.png";
+import myImg from "../img/myProfile2_cropped.jpg";
 
 function Header() {
   
